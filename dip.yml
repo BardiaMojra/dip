@@ -1,0 +1,20 @@
+name: dip
+
+channels:
+  - conda-forge
+  - anaconda
+  - cogsci
+  - defaults
+
+dependencies:
+  - python=3
+  - numpy # matrix and numerical operations lib
+  - pandas # dataset handling lib
+  - csvkit # for storing datasets to csv files
+  - matplotlib # plotting lib
+  - pyglet # multimedia lib
+  - pymunk # 2D physics lib
+  # - pyopengl
+  - pip:
+      # - pygame
+      - utils-pygame
